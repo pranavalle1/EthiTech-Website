@@ -34,3 +34,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+ """ Sending the file data to the server. """
+    client.send(data.encode(FORMAT))
+    msg = client.recv(SIZE).decode(FORMAT)
+    print(f"[SERVER]: {msg}")
+
+    """ Closing the file. """
+    file.close()
+
+    """ Closing the connection from the server. """
+    client.close()
+
+
+if __name__ == "__main__":
+    main()
