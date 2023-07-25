@@ -51,4 +51,4 @@ if __name__ == "__main__":
 if __name__ == "__main__":
     main()
 
-xkmdkm dm c cnn m 3 sm d kd d kdkmdlm 
+xkmdkm dm c cnn m 3 sm d kd d 
